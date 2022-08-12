@@ -1,7 +1,7 @@
 ---
 title: Elements
-published: 2022-06-04
-image: https://via.placeholder.com/768x384.webp?text=Gumori
+published: 2022-08-08
+image: https://via.placeholder.com/768x384.webp?text=Blank
 ---
 
 ## Contents

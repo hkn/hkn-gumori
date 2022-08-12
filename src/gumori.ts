@@ -1,11 +1,11 @@
 export const site: Config.Site = {
   url: import.meta.env.SITE,
-  title: 'Gumori',
-  description: 'Lightweight, Fast, IndieWeb-Compatible Astro Blog Starter.',
+  title: 'HKN',
+  description: 'Impersonal binary testing facility.',
   keywords: ['Gumori', 'Astro', 'UnoCSS'],
   authors: {
     default: {
-      name: 'John Doe',
+      name: 'HKN',
       url: import.meta.env.SITE,
       default: true
       // },
