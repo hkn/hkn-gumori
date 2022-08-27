@@ -10,7 +10,7 @@ import rehypeAutolinkHeadings from 'rehype-autolink-headings'
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://gumori.netlify.app',
+  site: 'https://hkn.se',
   integrations: [sitemap()],
   experimental: { integrations: true },
   markdown: {
