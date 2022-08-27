@@ -26,3 +26,11 @@ code[data-line-numbers] > .line::before {
   margin-right: 2rem;
   text-align: right;
 }
+
+code,
+samp,
+kbd,
+pre {
+	/* ↓ font-size is relative to containing element, so it scales for titles*/
+	font-size: 0.75em;
+}

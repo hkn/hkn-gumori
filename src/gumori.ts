@@ -33,10 +33,10 @@ export const page: Config.Page = {
 }
 
 export const nav: Config.Nav = [
-  {
-    text: 'Elements',
-    link: '/elements'
-  },
+  // {
+  //   text: 'Elements',
+  //   link: '/elements'
+  // },
   {
     text: 'RSS',
     link: '/rss.xml'
