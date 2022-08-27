@@ -22,12 +22,11 @@ export default defineConfig({
       [
         rehypeAutolinkHeadings,
         {
-          behavior: 'append',
+          behavior: 'wrap',
           content: {
             type: 'element',
             tagName: 'span',
-            properties: { className: ['anchor-link'] },
-            children: [{ type: 'text', value: '#' }]
+            properties: { className: ['anchor-link'] }
           }
         }
       ]

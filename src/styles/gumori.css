@@ -39,7 +39,19 @@ article h2 a {
   text-decoration: none;
   transition: color 250ms ease;
 }
-article h2 a:hover {
+article h3 a,
+article h4 a,
+article h5 a,
+article h6 a {
+  color: #000;
+  text-decoration: none;
+  transition: color 250ms ease;
+}
+article h2 a:hover,
+article h3 a:hover,
+article h4 a:hover,
+article h5 a:hover,
+article h6 a:hover {
   color: #666;
 }
 

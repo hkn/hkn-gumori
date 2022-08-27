@@ -24,12 +24,14 @@ const date = frontmatter.published ?? frontmatter.created ?? ''
       {frontmatter.title}
     </h1>
   )}
+  {/*}
   <p>
     Published by
     <Author authors={frontmatter.authors} />
     on
-    <Date date={date} />
+    <Date date={date ?? ''} />
   </p>
+  {*/}
   <>
     {frontmatter.summary && <p class="p-summary">{frontmatter.summary}</p>}
     {frontmatter.image && (
