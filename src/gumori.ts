@@ -1,7 +1,7 @@
 export const site: Config.Site = {
   url: import.meta.env.SITE,
   title: 'HKN',
-  description: 'Impersonal binary testing facility.',
+  description: 'IMPERSONAL BINARY TESTING FACILITY.',
   keywords: ['Gumori', 'Astro', 'UnoCSS'],
   authors: {
     default: {
