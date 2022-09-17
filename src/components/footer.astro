@@ -1,4 +1,22 @@
+---
+import { site, nav } from '@src/gumori'
+---
+
 <footer>
   <hr />
-  <p>Powered by <a rel='noopener external' target='_blank' href='https://github.com/importantimport/gumori'>Gumori</a></p>
+  <p>Copyright &copy; HKN, All Rights Reserved.</p>
+
+  {nav?.length && (
+  <nav>
+    <p>
+      {nav.map(({ text, link }, index: number) => text && (
+      <a href={link}>{text}</a>
+      <>
+        {index + 1 < nav.length && (<span>&nbsp;&nbsp;</span>)}
+        </>
+        ))}
+    </p>
+  </nav>
+  )}
+  <!-- Powered by <a rel='noopener external' target='_blank' href='https://github.com/importantimport/gumori'>Gumori</a></p> -->
 </footer>
