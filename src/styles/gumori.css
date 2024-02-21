@@ -66,6 +66,11 @@ article h6 a:hover {
   color: #666;
 }
 
+article img[src*='#center'] {
+    display: block;
+    margin: auto;
+}
+
 header {
   background: #2a2a2a;
 }
